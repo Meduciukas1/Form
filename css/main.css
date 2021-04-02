@@ -1,0 +1,32 @@
+body {
+    background-color: pink;
+}
+
+.vardas {
+    color: rgb(172, 35, 58);
+    font-family: 'Lobster', cursive;
+    background-color: hotpink;
+}
+
+.forma {
+    text-align: center;
+    border: 2px solid rgb(252, 92, 145);
+}
+
+.tel {
+    text-decoration: underline;
+    background-color: hotpink;
+}
+
+.spalva {
+    text-shadow: 5px 5px 2px rgb(226, 5, 90);
+}
+
+.slaptazodis {
+    font-weight: bold;
+    background-color: hotpink;
+}
+
+.transform {
+    text-transform: capitalize;
+}

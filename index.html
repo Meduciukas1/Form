@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="forma">Forma nr.001</h1>
+    <form action="#" method="GET" enctype="multipart/form-data">
+        <div>
+            <p class="vardas">Vardas</p>
+            <input placeholder="Vardas" type="text" name="vardas" tabindex="1">
+        </div>
+    <div>
+        <p class="slaptazodis">Slaptazodis</p>
+        <input type="password" name="password">
+    </div>
+    <div>
+        <p class="tel">Tel.nr</p>
+        <input type="tel" name="tel" tabindex="2">
+        
+    </div>
+    <div>
+        <p>Lytis</p>
+        <div>
+            <input type="radio" name="gender" value="male" checked> Vyr.
+        </div>
+        <div>
+            <input type="radio" name="gender" value="female"> Mot.
+        </div>
+        <div>
+            <p>Transportas</p>
+             <div>
+                 <input type="checkbox" name="bike" value="yes" tabindex="3" checked> Dviratis
+             </div>
+            <div>
+                <input type="checkbox" name="car" value="yes" tabindex="3" checked> Mašina
+            </div>
+            <div>
+                <input type="checkbox" name="house" value="yes" tabindex="3"> Autobusas
+            </div>
+        </div>
+        <div>
+            <p class="transform">Papildoma informacija</p>
+            <textarea name="text"></textarea>
+        </div>
+        <div>
+            <p>Pridėti nuotrauką</p>
+            <input tabindex="9" type="file" tabindex="4">
+        </div>
+        <div>
+            <p class="spalva">Patinkanti spalva</p>
+            <select name="color">
+                <option value="red">Raudona</option>
+                <option value="green">Žalia</option>
+                <option value="yellow" selected>Geltona</option>
+            </select>
+        </div>
+        <div>
+            <p>Veiksmai</p>
+            <button tabindex="11" type="submit" tabindex="5">Siųsti</button>
+            <button tabindex="12" type="reset" tabindex="5">Išvalyti</button>
+        </div>
+    </div>
+
+    </form>  
+</body>
+</html>
